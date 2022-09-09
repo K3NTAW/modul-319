@@ -13,6 +13,5 @@ public class Main {
         System.out.println(" ");
         System.out.println("Mein Name ist:");
         System.out.print("Kenta Waibel");
-
     }
 }
