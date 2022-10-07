@@ -32,7 +32,7 @@ public class ViewController {
         //Aufwendiger Style
         Car car1 = new Car("images/Auto.png", "Audi", "Flaschback 300", 50000.00, 215, Color.black, 4, 4, 650s);
         leftCarList.add(car1);
-        Car car2 = new Car("images/Auto.png", "Opel", "Manta SE", 20000.00 );
+        Car car2 = new Car("images/Auto.png", "Opel", "Manta SE", 20000.00, 168, color.blue, 4, 4, 400s);
         leftCarList.add(car2);
         Car car3 = new Car("images/Auto.png", "VW", "Golf GL", 12000.00 );
         leftCarList.add(car3);
