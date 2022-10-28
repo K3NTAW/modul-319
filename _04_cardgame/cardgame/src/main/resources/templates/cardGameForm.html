@@ -25,7 +25,7 @@
                     <h5>Spieler 1</h5>
                     <label th:text="'Noch ' + ${numberLeft}  + ' Karten im Deck'"></label>
                     <div class="mt-1 p-2 border" th:if="${leftCar == null}">Leere Karte
-                        <img class="img-fluid" src="éimages/Auto.png" alt="Autobild">
+                        <img class="img-fluid" src="images/Auto.png" alt="Autobild">
                     </div>
                     <div class="mt-1 p-2 border" th:if="${leftCar != null}">
                         <img class="img-fluid" th:src="${leftCar.imageUrl}" alt="Autobild">

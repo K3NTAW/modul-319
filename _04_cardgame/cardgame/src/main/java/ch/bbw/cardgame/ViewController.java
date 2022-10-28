@@ -41,6 +41,7 @@ public class ViewController {
         rightCarList.add(new Car("images/Auto.png", "Fiat", "500", 15000.00 ));
         rightCarList.add(new Car("images/Auto.png", "Alfa Romeo", "Guilietta", 30000.00 ));
         rightCarList.add(new Car("images/Auto.png", "Lancia", "Delta", 45000.00 ));
+        rightCarList.add(new Car("images/Auto.png"))
     }
 
     @GetMapping("/")

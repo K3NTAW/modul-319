@@ -19,8 +19,7 @@ public class Car {
     private double doors;
     private double ps;
 
-    public Car(String imageUrl, String tradeName, String model, double prize, double velocity, double chairs, double doors, double ps) {
-        this.imageUrl = imageUrl;
+    public Car( String tradeName, String model, double prize, double velocity, double chairs, double doors, double ps) {;
         this.tradeName = tradeName;
         this.model = model;
         this.prize = prize;
@@ -28,14 +27,6 @@ public class Car {
         this.chairs = chairs;
         this.doors = doors;
         this.ps = ps;
-    }
-
-    public String getImageUrl() {
-        return imageUrl;
-    }
-
-    public void setImageUrl(String imageUrl) {
-        this.imageUrl = imageUrl;
     }
 
     public String getTradeName() {
