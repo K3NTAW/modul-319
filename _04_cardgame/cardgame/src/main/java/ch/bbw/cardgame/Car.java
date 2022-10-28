@@ -15,7 +15,6 @@ public class Car {
     private String model;
     private double prize;
     private double velocity;
-    private Color;
     private double chairs;
     private double doors;
     private double ps;

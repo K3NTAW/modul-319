@@ -25,7 +25,7 @@
                     <h5>Spieler 1</h5>
                     <label th:text="'Noch ' + ${numberLeft}  + ' Karten im Deck'"></label>
                     <div class="mt-1 p-2 border" th:if="${leftCar == null}">Leere Karte
-                        <img class="img-fluid" src="images/Auto.png" alt="Autobild">
+                        <img class="img-fluid" src="éimages/Auto.png" alt="Autobild">
                     </div>
                     <div class="mt-1 p-2 border" th:if="${leftCar != null}">
                         <img class="img-fluid" th:src="${leftCar.imageUrl}" alt="Autobild">
@@ -42,6 +42,22 @@
                                 <tr>
                                     <th scope="row">Preis</th>
                                     <td th:text="${leftCar.prize}"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Velocity</th>
+                                    <td th:text="${leftCar.velocity}"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Chairs</th>
+                                    <td th:text="${leftCar.chairs}"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Doors</th>
+                                    <td th:text="${leftCar.doors}"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Ps</th>
+                                    <td th:text="${leftCar.ps}"></td>
                                 </tr>
                             </tbody>
                         </table>
@@ -70,6 +86,23 @@
                             <tr>
                                 <th scope="row">Preis</th>
                                 <td th:text="${rightCar.prize}"></td>
+                            </tr>
+                            </tr>
+                            <tr>
+                                <th scope="row">Velocity</th>
+                                <td th:text="${rightCar.velocity}"></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Chairs</th>
+                                <td th:text="${rightCar.chairs}"></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Doors</th>
+                                <td th:text="${rightCar.doors}"></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Ps</th>
+                                <td th:text="${rightCar.ps}"></td>
                             </tr>
                             </tbody>
                         </table>
