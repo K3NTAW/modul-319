@@ -5,7 +5,7 @@ public class Main {
         Scanner keyboard = new Scanner(System.in);
         int num1 = keyboard.nextInt();
         int num2 = keyboard.nextInt();
-        double summe = num1 / num2;
+        double summe = num1 /= num2;
         System.out.println("Summe " + summe);
     }
 }
